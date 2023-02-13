@@ -1,0 +1,248 @@
+/* reset */
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+    list-style:none ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* defaults */
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 3.4em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+/* layout */
+body {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-areas: 
+    "header header "
+    "aside1 main "
+    "footer footer ";
+    gap: 1em;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+#aside-1 {
+    grid-area: aside1;
+}
+
+
+
+footer {
+    grid-area: footer;
+    background-color: rgb(43, 38, 34);
+    padding: 2em;
+    text-align: center;
+}
+
+/* Navigation */
+
+/* Header */
+header > h1 {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+footer > p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Aside Styles */
+#aside-1 {
+    border-right: 2px solid #333;
+}
+
+#aside-1 > h2, #aside-2 > h2 {
+    background-color: #d1ceca;
+    padding: 0.5em;
+}
+
+.ci-level-1 {
+    padding-left: 1em;
+}
+
+.ci-level-1 > li > h3 {
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #333;
+}
+
+.ci-level-2 {
+    padding-left: 1em;
+}
+
+.ci-level-2 > li {
+    padding: 0.25em 0;
+}
+
+
+#ingredients > li, #steps > li {
+    padding-left: 1em;
+}
+
+
+/* Table Styles */
+table {
+    width: 100%;
+    border: 2px solid  #333;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table tr {
+    border: 2px solid#333;
+    border: 0.5em 0;
+}
+
+table th, table td { 
+    padding: 0.5em 0;
+}
+table th {
+    font-weight: bold;
+    text-align: center;
+    border-bottom:2px solid #333;
+}
+
+table > tfoot > tr > td {
+    text-align: center;
+    vertical-align: middle;
+    border-top:2px solid #333;
+  
+    
+}
+ .border-left{
+  border-left: 2px solid #333;
+}
+
+img {
+    width: 300px;
+    float: left;
+    margin-right: 1em;
+ }
+
+ header>h1 {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+nav .carf {
+    background-color: #54cac0;
+    clear: both;
+    height: 50%;
+}
+
+nav #logo {
+    float: left;
+    width:4.5em;
+    margin: 0;
+}
+
+nav #navlist {
+    margin-left: 5px;
+    align-items: center;
+    background-color:rgb(33, 32, 32)
+
+}
+
+nav li {
+    display: inline;
+    list-style-type: square;
+    margin-left: 10rem;
+    padding-left: 1px;
+    color: #333;
+    align-items: center;
+}
+
+nav a:link {
+    line-height: 75px;
+    height: 75px;
+    padding: 0;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.25s;
+
+}
+
+nav a:hover{
+    background-color: #413240;
+}
+
+a{
+    color:aliceblue;
+}
+a:hover {
+    color: #005bbc;
+}
+.carg {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border-bottom: 2px solid #333;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size:70px;
+}
+
+.carm img{
+width: 600px;
+}
+
+button{
+    color:aliceblue;
+    background-color: #333;
+
+}
+button:hover{
+   color: #005bbc;
+}
