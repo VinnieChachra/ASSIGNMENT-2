@@ -1,17 +1,21 @@
 /* reset */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
     padding: 0%;
     margin: 0;
     font-size: 16px;
     text-decoration: none;
-    list-style:none ;
+    list-style: none;
     font-weight: normal;
     font-style: normal;
 }
 
 /* defaults */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 1em;
 }
@@ -39,10 +43,10 @@ p {
 body {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-areas: 
-    "header header "
-    "aside1 main "
-    "footer footer ";
+    grid-template-areas:
+        "header header "
+        "aside1 main "
+        "footer footer ";
     gap: 1em;
     justify-content: center;
     max-width: 1200px;
@@ -72,7 +76,7 @@ footer {
 
 
 
-header > h1 {
+header>h1 {
     text-align: center;
     width: 100%;
     margin: 20px 0;
@@ -80,7 +84,7 @@ header > h1 {
     padding-bottom: 0.5em;
 }
 
-footer > p {
+footer>p {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 20px;
@@ -91,7 +95,8 @@ footer > p {
     border-right: 2px solid #333;
 }
 
-#aside-1 > h2, #aside-2 > h2 {
+#aside-1>h2,
+#aside-2>h2 {
     background-color: #d1ceca;
     padding: 0.5em;
 }
@@ -100,7 +105,7 @@ footer > p {
     padding-left: 1em;
 }
 
-.ci-level-1 > li > h3 {
+.ci-level-1>li>h3 {
     margin-top: 1em;
     padding-bottom: 0.5em;
     border-bottom: 2px solid #333;
@@ -110,19 +115,20 @@ footer > p {
     padding-left: 1em;
 }
 
-.ci-level-2 > li {
+.ci-level-2>li {
     padding: 0.25em 0;
 }
 
 
-#ingredients > li, #steps > li {
+#ingredients>li,
+#steps>li {
     padding-left: 1em;
 }
 
 
 table {
     width: 100%;
-    border: 2px solid  #333;
+    border: 2px solid #333;
     padding: 1em;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -132,33 +138,36 @@ table tr {
     border: 0.5em 0;
 }
 
-table th, table td { 
+table th,
+table td {
     padding: 0.5em 0;
 }
+
 table th {
     font-weight: bold;
     text-align: center;
-    border-bottom:2px solid #333;
+    border-bottom: 2px solid #333;
 }
 
-table > tfoot > tr > td {
+table>tfoot>tr>td {
     text-align: center;
     vertical-align: middle;
-    border-top:2px solid #333;
-  
-    
+    border-top: 2px solid #333;
+
+
 }
- .border-left{
-  border-left: 2px solid #333;
+
+.border-left {
+    border-left: 2px solid #333;
 }
 
 img {
     width: 300px;
     float: left;
     margin-right: 1em;
- }
+}
 
- header>h1 {
+header>h1 {
     text-align: center;
     width: 100%;
     margin: 20px 0;
@@ -173,7 +182,7 @@ nav .carf {
 
 nav #logo {
     float: left;
-    width:4.5em;
+    width: 4.5em;
     margin: 0;
 }
 
@@ -202,22 +211,24 @@ nav a:link {
 
 }
 
-nav a:hover{
-    background-color: #413240;
+nav a:hover {
+    background-color: #413240;
 }
 
-a{
-    color:aliceblue;
+a {
+    color: aliceblue;
 }
+
 a:hover {
     color: #005bbc;
 }
+
 .carg {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
-    border-bottom: 2px solid #333;  
+    border-bottom: 2px solid #333;
 }
 
 img {
@@ -226,18 +237,19 @@ img {
 }
 
 .text {
-    font-size:70px;
+    font-size: 70px;
 }
 
-.carm img{
-width: 600px;
+.carm img {
+    width: 600px;
 }
 
-button{
-    color:aliceblue;
+button {
+    color: aliceblue;
     background-color: #333;
 
 }
-button:hover{
-   color: #005bbc;
+
+button:hover {
+    color: #005bbc;
 }
