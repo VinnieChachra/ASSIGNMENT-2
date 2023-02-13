@@ -70,9 +70,8 @@ footer {
     text-align: center;
 }
 
-/* Navigation */
 
-/* Header */
+
 header > h1 {
     text-align: center;
     width: 100%;
@@ -87,7 +86,7 @@ footer > p {
     margin-top: 20px;
 }
 
-/* Aside Styles */
+
 #aside-1 {
     border-right: 2px solid #333;
 }
@@ -121,7 +120,6 @@ footer > p {
 }
 
 
-/* Table Styles */
 table {
     width: 100%;
     border: 2px solid  #333;
@@ -169,7 +167,6 @@ img {
 }
 
 nav .carf {
-    background-color: #54cac0;
     clear: both;
     height: 50%;
 }
@@ -183,7 +180,6 @@ nav #logo {
 nav #navlist {
     margin-left: 5px;
     align-items: center;
-    background-color:rgb(33, 32, 32)
 
 }
 
@@ -192,7 +188,6 @@ nav li {
     list-style-type: square;
     margin-left: 10rem;
     padding-left: 1px;
-    color: #333;
     align-items: center;
 }
 
@@ -200,10 +195,10 @@ nav a:link {
     line-height: 75px;
     height: 75px;
     padding: 0;
-    color: #333;
+
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: 0.25s;
+
 
 }
 
@@ -222,7 +217,7 @@ a:hover {
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #333;  
 }
 
 img {
